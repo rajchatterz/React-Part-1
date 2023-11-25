@@ -1,0 +1,6 @@
+li button{
+    background: linear-gradient(40deg,#859da2,#7cabbc,#4479d3);
+}
+li button:hover{
+    background: linear-gradient(40deg,#39ddfe,#1a4352,#839ecc);
+}
