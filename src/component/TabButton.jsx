@@ -1,9 +1,9 @@
 import React from 'react'
 import './TabButton.css'
-const TabButton = (props) => {
+const TabButton = ({children,onSelect}) => {
   return (
     <div>
-          <li><button>{props.children }</button></li>
+          <li><button onClick={onSelect}>{children }</button></li>
     </div>
   )
 }
